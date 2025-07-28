@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bateria</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Bateria</h1>
+    </header>
+
+    <main>
+        <section class="teclado" aria-label="Teclado da Bateria">
+            <button class="tecla" data-key="keyq">Q</button>
+            <button class="tecla" data-key="keyw">W</button>
+            <button class="tecla" data-key="keye">E</button>
+            <button class="tecla" data-key="keya">A</button>
+            <button class="tecla" data-key="keys">S</button>
+            <button class="tecla" data-key="keyd">D</button>
+            <button class="tecla" data-key="keyz">Z</button>
+            <button class="tecla" data-key="keyx">X</button>
+            <button class="tecla" data-key="keyc">C</button>
+        </section>
+
+        <section class="controles" aria-label="Controles da Bateria">
+            <input type="text" id="search" placeholder="Faça uma composição" aria-label="Campo de busca para composições">
+        <div class="control-buttons">
+            <button id="play" aria-label="Botão para tocar a composição">Play</button>
+            <button id="stop" aria-label="Botão para parar a composição">Stop</button>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/GiovanniVINI">Vinícius</a></p>
+    </footer>
+
+    <audio id="s_keyq" src="sounds/keyq.wav"></audio>
+    <audio id="s_keyw" src="sounds/keyw.wav"></audio>
+    <audio id="s_keye" src="sounds/keye.wav"></audio>
+    <audio id="s_keya" src="sounds/keya.wav"></audio>
+    <audio id="s_keys" src="sounds/keys.wav"></audio>
+    <audio id="s_keyd" src="sounds/keyd.wav"></audio>
+    <audio id="s_keyz" src="sounds/keyz.wav"></audio>
+    <audio id="s_keyx" src="sounds/keyx.wav"></audio>
+    <audio id="s_keyc" src="sounds/keyc.wav"></audio>
+
+    <script src="index.js"></script>
+</body>
+</html>
