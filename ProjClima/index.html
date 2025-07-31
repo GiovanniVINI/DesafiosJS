@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clima</title>
+</head>
+<body>
+    <header>
+        <h1>Clima</h1>
+    </header>
+    <main>
+        <section class="weather-info" aria-label="Informações do Clima">
+            <h2>Previsão do Tempo</h2>
+            <div class="location">
+                <input type="text" id="city" placeholder="Digite o nome da cidade" aria-label="Campo para digitar o nome da cidade">
+                <button id="get-weather" aria-label="Botão para obter a previsão do tempo">Buscar</button>
+            </div>
+        </section>
+        <section id="weather-result" aria-label="Resultado da Previsão do Tempo">
+            <div class="weather-card">
+            <h1></h1>
+            <div class="hour"></div>
+            <div class="weather-show">
+                <div class="imgweather-temp">
+                    <div class="img-weather"></div>
+                    <div class="weather-temp"></div>
+                </div>
+                <div class="weather-condition"></div>
+            </div>
+            </div>
+            <div class="alert">
+                <p class="alert-result">Insira o nome de uma cidade e clique em "Buscar" para ver a previsão do tempo!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/GiovanniVINI" target="_blank">Vinícius</a></p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
